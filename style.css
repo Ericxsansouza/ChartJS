@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+
+.chart-container{
+    position: relative; 
+    height: 60vh; 
+    width: 60vw
+}
+
+button{
+    margin-top: 1rem;
+    margin-left: 3.5rem;
+    padding: 8px 50px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(3, 3, 26);
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+button:hover{
+    border: 1px solid rgb(3, 3, 26);
+    background-color: rgb(255, 255, 255);
+    color: rgb(230, 24, 69);
+    transition: 0.2s;
+}
